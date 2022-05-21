@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            min-width: 400px;
+        }
+        input{
+            height: 33px;
+            margin: 2px;
+            width: 95%;
+            display: block;
+            box-sizing: border-box;
+            border: 1px solid green;
+        }
+        button{
+            display: inline-block;
+            margin-top: 3px;
+            border-radius: 0;
+            border: none;
+            background: green;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 10px;
+            border: 1px solid green;
+        }
+        #delete{
+            background: white;
+            color: green;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+        ul{
+            margin-left: 0;
+            padding-left: 0;
+        }
+        ul li{
+            list-style-type: none;
+            padding: 2px;
+        }
+        ul li a{
+            color: green;
+        }
+    </style>
+    <input type="text" id="text">
+    <button id="save">save link</button>
+    <button id="tab">save tab</button>
+    <button id="delete">delete all</button>
+    <p id="note">NB: double click to delete</p>
+
+    <ul id="unlist">
+    
+    </ul>
+
+    <p id="output">
+        
+    </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
